@@ -166,8 +166,8 @@ cp $workdir/vulkan.adreno.so $magiskdir/$p1
 
 
 echo "Packing files in to magisk module ..." $'\n'
-zip -r $workdir/turnipXiaomiPocoMod.zip * &> /dev/null
-if ! [ -a $workdir/turnipXiaomiPocoMod.zip ];
+zip -r $workdir/turnipXiaomiPocoModdebug.zip * &> /dev/null
+if ! [ -a $workdir/turnipXiaomiPocoModdebug.zip ];
 	then echo -e "$red-Packing failed!$nocolor" && exit 1
-	else echo -e "$green-All done, you can take your module from here;$nocolor" && echo $workdir/turnipXiaomiPocoMod.zip
+	else echo -e "$green-All done, you can take your module from here;$nocolor" && echo $workdir/turnipXiaomiPocoModdebug.zip
 fi
