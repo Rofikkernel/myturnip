@@ -26,3 +26,4 @@ bash turnip_builder.sh (For some system instead sh command)
 - https://forum.xda-developers.com/t/getting-freedreno-turnip-mesa-vulkan-driver-on-a-poco-f3.4323871/
 
 - https://gitlab.freedesktop.org/mesa/mesa/-/issues/6802
+- https://gitlab.freedesktop.org/mesa/mesa/-/issues/7033#note_1621646
