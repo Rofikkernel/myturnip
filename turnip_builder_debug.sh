@@ -3,8 +3,8 @@ green='\033[0;32m'
 red='\033[0;31m'
 nocolor='\033[0m'
 deps="meson ninja patchelf unzip curl pip flex bison zip"
-workdir="$(pwd)/turnip_workdir"
-magiskdir="$workdir/turnip_module"
+workdir="$(pwd)/turnip_workdir2"
+magiskdir="$workdir/turnip_module2"
 clear
 
 
@@ -145,7 +145,7 @@ EOF
 
 cat <<EOF >"module.prop"
 id=turnip
-name=Mesa Turnip
+name=Mesa Turnip Debug
 version=v22.4.0
 versionCode=1
 author=XiaomiPocoMod
