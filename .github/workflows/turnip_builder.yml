@@ -2,7 +2,7 @@ name: Build turnip
 
 on:
   schedule:
-  - cron: "31 08 4,7,14,28 * *"
+  - cron: "21 09 4,7,14,28 * *"
 
 jobs:
   build_turnip:
@@ -27,6 +27,6 @@ jobs:
         tag_name: workflow_${{github.run_number}}
         name: Release ${{github.run_number}}
         files: |
-           turnip_workdir/turnipRofik-XiaomiPocoMod.zip
+           turnip_workdir/turnipXiaomiPocoMod.zip
 #          turnip_workdir/meson_log
 #          turnip_workdir/ninja_log
