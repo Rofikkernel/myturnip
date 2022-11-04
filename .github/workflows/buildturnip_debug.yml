@@ -19,13 +19,13 @@ jobs:
     - name: Run build script
       run: bash ./turnip_builder_debug.sh 
       
-    - name: Release
+    - name: Debug
       uses: softprops/action-gh-release@v1
       with:
-        body: Turnip magisk module
+        body: Mesa Turnip magisk module Debug
         tag_name: workflow_${{github.run_number}}
         name: Release ${{github.run_number}}
         files: |
-           turnip_workdir/turnipXiaomiPocoModdebug.zip
-#          turnip_workdir/meson_log
-#          turnip_workdir/ninja_log
+           turnip_workdir2/turnipXiaomiPocoModdebug.zip
+#          turnip_workdir2/meson_log
+#          turnip_workdir2/ninja_log
