@@ -21,10 +21,10 @@ jobs:
     - name: Run build script
       run: bash ./turnip_builder.sh 
       
-    - name: Release
+    - name: Release Mesa Turnip Latest
       uses: softprops/action-gh-release@v1
       with:
-        body: Turnip magisk module
+        body: Turnip magisk module Latest
         tag_name: workflow_${{github.run_number}}
         name: Release ${{github.run_number}}
         files: |
