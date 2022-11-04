@@ -1,7 +1,8 @@
 In this repository, you will find a shell script to build freedreno/turnip driver for android as a magisk module.
 
 ### Scheduled Releases
-- There will be automated releases at 13:00 UTC on the 1 and 15th of every month with the help of github-actions.
+- There will be automated releases Stable at 08:00 Indonesia Time UTC +7 on Every Day with the help of github-actions.
+- There will be automated releases Debug Build 08:00 Indonesia Time UTC +7 on Every Weeks with the help of github-actions.
 
 ### Notes;
 - Apps and games in magisk hidelist/denylist will not able to access turnip driver
@@ -14,8 +15,10 @@ In this repository, you will find a shell script to build freedreno/turnip drive
 - You can edit **turnip_builder.sh** to add a break or skip some steps, this is also a good way when you want to try something that is not merged in to mesa repository.
 
 
-Rofik/XiaomiPocoMod Changelog
-add Debug build mode
+###Rofik/XiaomiPocoMod Changelog
+-add Debug build mode for Dev 
+-add manual run build by @ilhan-athn7
+-change auto build time
 
 Notes
 use command 
