@@ -2,7 +2,7 @@ In this repository, you will find a shell script to build freedreno/turnip drive
 
 ### Scheduled Releases
 - There will be automated releases Stable at 08:00 Indonesia Time UTC +7 on Every Day with the help of github-actions.
-- There will be automated releases Debug Build 08:00 Indonesia Time UTC +7 on Every Weeks with the help of github-actions.
+- There will be manual releases Debug Build with the help of github-actions.
 
 ### Notes;
 - Apps and games in magisk hidelist/denylist will not able to access turnip driver
