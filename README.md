@@ -1,8 +1,5 @@
 In this repository, you will find a shell script to build freedreno/turnip driver for android as a magisk module.
 
-### Scheduled Releases
-- There will be automated releases Stable at 08:00 Indonesia Time UTC +7 on Every Day with the help of github-actions.
-- There will be manual releases Debug Build with the help of github-actions.
 
 ### Notes;
 - Apps and games in magisk hidelist/denylist will not able to access turnip driver, other workarround in progress
