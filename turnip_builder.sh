@@ -146,7 +146,7 @@ EOF
 cat <<EOF >"module.prop"
 id=turnip
 name=Mesa Turnip
-version=v22.4.0
+version=v23.0.0
 versionCode=1
 author=XiaomiPocoMod
 description=Turnip is an open-source vulkan driver for devices with adreno GPUs.
