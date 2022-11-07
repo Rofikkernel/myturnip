@@ -2,7 +2,7 @@
 green='\033[0;32m'
 red='\033[0;31m'
 nocolor='\033[0m'
-deps="meson ninja patchelf unzip curl pip flex bison zip"
+deps="meson ninja patchelf unzip curl pip flex bison zip libdrm-dev"
 workdir="$(pwd)/panfrostmali.zip"
 magiskdir="$workdir/panfrost_mali"
 clear
@@ -29,7 +29,7 @@ for deps_chk in $deps;
 
 echo "Installing python Mako dependency (if missing) ..." $'\n'
 pip install mako &> /dev/null
-
+apt-get install libdrm-dev
 
 
 echo "Creating and entering to work directory ..." $'\n'
@@ -64,7 +64,7 @@ cpp = ['ccache', '$ndk/aarch64-linux-android31-clang++', '-fno-exceptions', '-fn
 c_ld = 'lld'
 cpp_ld = 'lld'
 strip = '$ndk/aarch64-linux-android-strip'
-pkgconfig = ['env', 'PKG_CONFIG_LIBDIR=NDKDIR/pkgconfig', '/usr/bin/pkg-config']
+pkgconfig = ['env', 'PKG_CONFIG_LIBDIR=/usr/lib/pkgconfig', '/usr/bin/pkg-config']
 [host_machine]
 system = 'android'
 cpu_family = 'aarch64'
