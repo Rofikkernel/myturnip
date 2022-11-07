@@ -2,7 +2,7 @@
 green='\033[0;32m'
 red='\033[0;31m'
 nocolor='\033[0m'
-deps="meson ninja patchelf unzip curl pip flex bison zip libdrm-dev"
+deps="meson ninja patchelf unzip curl pip flex bison zip"
 workdir="$(pwd)/panfrostmali.zip"
 magiskdir="$workdir/panfrost_mali"
 clear
