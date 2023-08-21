@@ -1,9 +1,7 @@
 In this repository, you will find a shell script to build freedreno/turnip driver for android as a magisk module.
 
 
-### Notes;
-- Apps and games in magisk hidelist/denylist will not able to access turnip driver, other workarround in progress
-- Make sure you are not using SkiaVK.
+
 
 ### How to build locally?
 - Pick up the [turnip_builder.sh](https://raw.githubusercontent.com/ilhan-athn7/freedreno_turnip-CI/main/turnip_builder.sh)
